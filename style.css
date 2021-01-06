@@ -372,7 +372,7 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 50%;
 }
 .skills-content .right .python::before{
     width: 80%;
