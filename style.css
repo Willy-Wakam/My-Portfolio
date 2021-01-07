@@ -753,4 +753,11 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+    .social{
+        height: 42px;
+        width: 250px;
+        position: fixed;
+        bottom: 0px;
+    }
 }
