@@ -632,7 +632,11 @@ footer span a:hover{
         padding: 0 50px;
     }
 }
-@media (max-width: 947px){
+@media (max-width: 947px){    
+    .home{
+    background: url("./images/hintergrund5.jpg") no-repeat center;
+    background-position: 70% 20%;
+}
     .menu-btn{
         display: block;
         z-index: 999;
@@ -697,7 +701,11 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 690px) {    
+    .home{
+    background: url("./images/hintergrund5.jpg") no-repeat center;
+    background-position: 50% 30%;
+}
     .max-width{
         padding: 0 23px;
     }
@@ -716,6 +724,10 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .home{
+        background: url("./images/hintergrund5.jpg") no-repeat center;
+        background-position: 40% 20%;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
