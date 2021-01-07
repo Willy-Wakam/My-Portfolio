@@ -6,12 +6,19 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        if(this.scrollY == 0){
+            $('.social-2').addClass("soc2");
+        }else{
+            $('.social-2').removeClass("soc2");
+        }
         
         // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
+            $('.social').addClass("soc");
         }else{
             $('.scroll-up-btn').removeClass("show");
+            $('.social').removeClass("soc");
         }
     });
 

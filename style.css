@@ -133,11 +133,11 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
-.scroll-up-btn{
+.scroll-up-btn{ 
     position: fixed;
-    height: 45px;
+    height: 42px;
     width: 42px;
-    background: rgb(20, 173, 220);
+    background:#00abe9;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -160,6 +160,14 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
+.scroll-up-btn.show .twitter-share-button{ 
+    position: fixed;
+    height: 250px;
+    width: 42px;
+    background: rgb(20, 173, 220);
+}
+
 
   
 /* home section styling */
@@ -209,6 +217,57 @@ section .title::after{
     color: rgb(20, 173, 220);
     background: none;
 }
+.social-2{    
+    position: fixed;
+    height: 42px;
+    width: 250px;
+    background:rgb(20, 173, 220);
+    right: 650px;
+    left: 650px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.social.soc2{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/*social styling*/
+.social { 
+    position: fixed;
+    height: 250px;
+    width: 42px;
+    background:#fff;
+    right: 30px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.social.soc{
+    bottom: 250px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
 
 /* about section styling */
 .about .title::after{
