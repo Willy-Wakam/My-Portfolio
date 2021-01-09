@@ -8,13 +8,47 @@ $(document).ready(function(){
         } 
         
         // scroll-up button show/hide script
+ 
+        if (this.scrollY > 300) {
+            $('.about').addClass("show2")
+        }else{
+            $('.about').removeClass("show2")
+        }
+
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
             $('.social').addClass("soc");
-            $('parcours').addClass("show1")
         }else{
             $('.scroll-up-btn').removeClass("show");
             $('.social').removeClass("soc");
+        }
+
+        if(this.scrollY > 1100){
+            $('.about-1').addClass("show1")
+        }
+        else{
+            $('.about-1').removeClass("show1")
+        }
+
+        if(this.scrollY > 2200){
+            $('.services').addClass("show3")
+        }
+        else{
+            $('.services').removeClass("show3")
+        }
+
+        if(this.scrollY > 2800){
+            $('.skills').addClass("show4")
+        }
+        else{
+            $('.skills').removeClass("show4")
+        }
+
+        if(this.scrollY > 3400){
+            $('.contact').addClass("show5")
+        }
+        else{
+            $('.contact').removeClass("show5")
         }
     });
 
