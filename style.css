@@ -237,7 +237,7 @@ section .title::after{
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .social.soc{
@@ -246,12 +246,7 @@ section .title::after{
     pointer-events: auto;
 }
 
-.social2{
-    height: 32px;
-    width: 250px;
-    opacity: 1;
-    position: inherit;
-}
+
 
 .services{
     opacity: 0;
@@ -643,6 +638,7 @@ footer span a:hover{
 }
 
 
+
 /* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width{
@@ -731,7 +727,7 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 690px) {    
+@media (max-width: 768px ) {    
     .home{
     background: url("./images/hintergrund5.jpg") no-repeat center;
     background-position: 50% 30%;
@@ -784,10 +780,7 @@ footer span a:hover{
         line-height: 38px;
     }
 
-    .social img{
-        height: 28px;
-        width: 28px;
-    }
+    
 }
 
 @media (max-width: 320px) {
