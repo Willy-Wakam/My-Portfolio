@@ -11,6 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -244,6 +245,14 @@ section .title::after{
     opacity: 1;
     pointer-events: auto;
 }
+
+.social2{
+    height: 32px;
+    width: 250px;
+    opacity: 1;
+    position: inherit;
+}
+
 .services{
     opacity: 0;
     pointer-events: none;
@@ -775,15 +784,6 @@ footer span a:hover{
         line-height: 38px;
     }
 
-    .social{
-        height: 32px;
-        width: 250px;
-        position: fixed;
-        bottom: 0px;
-        top: 523px;
-        right: 98px;
-    }
-
     .social img{
         height: 28px;
         width: 28px;
@@ -791,14 +791,6 @@ footer span a:hover{
 }
 
 @media (max-width: 320px) {
-    .social{
-        height: 32px;
-        width: 250px;
-        position: fixed;
-        bottom: 0px;
-        top: 523px;
-        right: 35px;
-    }
     .scroll-up-btn.show{
         bottom: 60px;
         opacity: 1;
@@ -814,12 +806,14 @@ footer span a:hover{
         bottom: 0px;
         top: 498px;
         right: 63px;
+        opacity: 0;
     }
     .scroll-up-btn.show{
         bottom: 63px;
         opacity: 1;
         pointer-events: auto;
     }
+
 }
 
 /* abou-1 section styling*/
@@ -909,7 +903,7 @@ footer span a:hover{
   }
   
   /* The actual timeline (the vertical ruler) */
-  .timeline::after {
+   .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -921,7 +915,7 @@ footer span a:hover{
   }
 
     /* Container around content */
-    .container {
+    .about1    .container {
         padding: 10px 40px;
         position: relative;
         background-color: inherit;
@@ -929,7 +923,7 @@ footer span a:hover{
       }
     
     /* The circles on the timeline */
-    .container::after {
+    .about1 .container::after {
       content: '';
       position: absolute;
       width: 25px;

@@ -10,9 +10,9 @@ $(document).ready(function(){
         // scroll-up button show/hide script
  
         if (this.scrollY > 300) {
-            $('.about').addClass("show2")
+            $('.about').addClass("show2");
         }else{
-            $('.about').removeClass("show2")
+            $('.about').removeClass("show2");
         }
 
         if(this.scrollY > 500){
@@ -24,31 +24,32 @@ $(document).ready(function(){
         }
 
         if(this.scrollY > 1100){
-            $('.about-1').addClass("show1")
+            $('.about-1').addClass("show1");
         }
         else{
-            $('.about-1').removeClass("show1")
+            $('.about-1').removeClass("show1");
         }
 
         if(this.scrollY > 2200){
-            $('.services').addClass("show3")
+            $('.services').addClass("show3");
         }
         else{
-            $('.services').removeClass("show3")
+            $('.services').removeClass("show3");
         }
 
         if(this.scrollY > 2800){
-            $('.skills').addClass("show4")
+            $('.skills').addClass("show4");
         }
         else{
-            $('.skills').removeClass("show4")
+            $('.skills').removeClass("show4");
         }
 
-        if(this.scrollY > 3400){
-            $('.contact').addClass("show5")
+        if(this.scrollY > 3600){
+            $('.contact').addClass("show5");
+            $('.social').removeClass("soc");
         }
         else{
-            $('.contact').removeClass("show5")
+            $('.contact').removeClass("show5");
         }
     });
 
