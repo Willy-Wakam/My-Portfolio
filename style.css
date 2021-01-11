@@ -230,13 +230,11 @@ section .title::after{
     z-index: 9;
     text-align: center;
     line-height: 45px;
-    color: #fff;
     font-size: 30px;
     border-radius: 6px;
     border-bottom-width: 2px;
     cursor: pointer;
     opacity: 0;
-    pointer-events: none;
     transition: all 0.2s ease;
 }
 
@@ -250,48 +248,40 @@ section .title::after{
 
 .services{
     opacity: 0;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
 .services.show3{
     opacity: 1;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 .skills{
     opacity: 0;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
 .skills.show4{
     opacity: 1;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 .contact{
     opacity: 0;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
 .contact.show5{
     opacity: 1;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
 /* about section styling */
 .about{
     opacity: 0;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
 .about.show2{
     opacity: 1;
-    pointer-events: none;
     transition: all 0.5s ease;
 }
 
@@ -815,7 +805,6 @@ footer span a:hover{
     background: #fff;
     color: #111;
     opacity: 0;
-    pointer-events: none;
     transition: all 0.3s ease;
 }
 
