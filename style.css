@@ -240,7 +240,7 @@ section .title::after{
 
 .social.soc{
     bottom: 250px;
-    opacity: 1;
+    opacity: 1; 
     pointer-events: auto;
 }
 
@@ -779,6 +779,10 @@ footer span a:hover{
         opacity: 1;
         pointer-events: auto;
     }
+    
+    .social.soc{
+        opacity: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -789,6 +793,10 @@ footer span a:hover{
         bottom: 0px;
         top: 498px;
         right: 63px;
+        opacity: 0;
+    }
+
+    .social.soc{
         opacity: 0;
     }
     .scroll-up-btn.show{
