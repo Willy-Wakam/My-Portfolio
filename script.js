@@ -47,6 +47,7 @@ $(document).ready(function(){
         if(this.scrollY > 3600){
             $('.contact').addClass("show5");
             $('.social').removeClass("soc");
+            $('footer').addClass("show12")
         }
         else{
             $('.contact').removeClass("show5");

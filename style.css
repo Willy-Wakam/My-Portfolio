@@ -55,7 +55,8 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 
+    
 }
 section .title::before{
     content: "";
@@ -68,6 +69,38 @@ section .title::before{
     transform: translateX(-50%);
 }
 section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(20, 173, 220);
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+ .title1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 5;
+    
+}
+
+.title1::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 250px;
+    height: 5px;
+    background: #00abe9;
+    transform: translateX(-50%);
+}
+ .title1::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -275,6 +308,7 @@ section .title::after{
 }
 
 /* about section styling */
+
 .about{
     opacity: 0;
     transition: all 0.5s ease;
@@ -820,6 +854,7 @@ footer span a:hover{
 .about-1.show1{
     opacity: 1;
     pointer-events: auto;
+    margin-top: -100px;
 }
 
 
@@ -937,3 +972,5 @@ footer span a:hover{
     border-color: transparent white transparent transparent;
     }
 }
+
+/*Css-Animations*/
