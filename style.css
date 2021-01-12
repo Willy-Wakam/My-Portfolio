@@ -662,7 +662,13 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.resume{
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.space{
+    height: 150px;
+ }
 
 /* responsive media query start */
 @media (max-width: 1300px) {
@@ -805,6 +811,14 @@ footer span a:hover{
         line-height: 38px;
     }
 
+    .space{
+        height: 0px;
+     }
+ 
+ .resume{
+         font-family: 'Ubuntu', sans-serif;
+         margin-bottom: 80px;
+     }
     
 }
 
@@ -818,6 +832,15 @@ footer span a:hover{
     .social.soc{
         opacity: 0;
     }
+
+    .space{
+        height: 0px;
+     }
+ 
+ .resume{
+         font-family: 'Ubuntu', sans-serif;
+         margin-bottom: 80px;
+     }
 }
 
 @media (max-width: 375px) {
@@ -840,6 +863,15 @@ footer span a:hover{
         pointer-events: auto;
         margin-bottom: 50px;
         margin-right: -15px;
+    }
+
+.space{
+       height: 0px;
+    }
+
+.resume{
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 80px;
     }
 
 }
