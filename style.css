@@ -838,6 +838,7 @@ footer span a:hover{
         bottom: 63px;
         opacity: 1;
         pointer-events: auto;
+        margin-bottom: 50px;
     }
 
 }
@@ -971,6 +972,17 @@ footer span a:hover{
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
     }
+    
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+
 }
 
 /*Css-Animations*/
