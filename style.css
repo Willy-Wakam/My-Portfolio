@@ -271,6 +271,11 @@ section .title::after{
     transition: all 0.2s ease;
 }
 
+div.column.right{
+    animation-name: example;
+    animation-duration: 4s;
+}
+
 .social.soc{
     bottom: 250px;
     opacity: 1; 
@@ -1021,3 +1026,15 @@ footer span a:hover{
 }
 
 /*Css-Animations*/
+
+@keyframes example{
+       0% {
+          transform: scale(0.2);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;	
+        }
+      
+}
