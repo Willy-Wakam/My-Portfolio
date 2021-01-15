@@ -55,7 +55,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 
+    font-family: 'Ubuntu', sans-serif;
     
 }
 section .title::before{
@@ -313,6 +313,8 @@ section .title::after{
     opacity: 0;
     transition: all 0.5s ease;
 }
+
+
 
 .about.show2{
     opacity: 1;
@@ -780,7 +782,7 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .home{
         background: url("./images/hintergrund5.jpg") no-repeat center;
         background-position: 40% 20%;

@@ -30,21 +30,21 @@ $(document).ready(function(){
             $('.about-1').removeClass("show1");
         }
 
-        if(this.scrollY > 2200){
+        if(this.scrollY >= 2200){
             $('.services').addClass("show3");
         }
         else{
             $('.services').removeClass("show3");
         }
 
-        if(this.scrollY > 2800){
+        if(this.scrollY >= 2800){
             $('.skills').addClass("show4");
         }
         else{
             $('.skills').removeClass("show4");
         }
 
-        if(this.scrollY > 3600){
+        if(this.scrollY >= 3300){
             $('.contact').addClass("show5");
             $('.social').removeClass("soc");
             $('footer').addClass("show12")
@@ -53,6 +53,7 @@ $(document).ready(function(){
             $('.contact').removeClass("show5");
         }
     });
+    
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
