@@ -273,7 +273,7 @@ section .title::after{
 
 div.column.right{
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 .social.soc{
@@ -412,7 +412,7 @@ div.column.right{
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px auto 7px auto;
 }
 
 /* skills section styling */
@@ -768,7 +768,7 @@ footer span a:hover{
 @media (max-width: 768px ) {    
     .home{
     background: url("./images/hintergrund5.jpg") no-repeat center;
-    background-position: 50% 30%;
+    background-position: 40% 30%;
 }
     .max-width{
         padding: 0 23px;
@@ -848,6 +848,29 @@ footer span a:hover{
          font-family: 'Ubuntu', sans-serif;
          margin-bottom: 80px;
      }
+
+     section .title{
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 100px;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+
+    section .title::after{
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        font-size: 20px;
+        color: rgb(20, 173, 220);
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -946,7 +969,7 @@ footer span a:hover{
   }
   
   /* Place the container to the right */
-  .right {
+  .right1 {
     left: 50%;
   }
   
@@ -965,7 +988,7 @@ footer span a:hover{
   }
   
   /* Add arrows to the right container (pointing left) */
-  .right::before {
+  .right1::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -979,7 +1002,7 @@ footer span a:hover{
   }
   
   /* Fix the circle for containers on the right side */
-  .right::after {
+  .right1::after {
     left: -16px;
   }
   
@@ -1014,12 +1037,12 @@ footer span a:hover{
     }
     
   /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  .left::after, .right1::after {
     left: 15px;
     }
     
     /* Make all right containers behave like the left ones */
-    .right {
+    .right1 {
     left: 0%;
     }
 
@@ -1031,6 +1054,10 @@ footer span a:hover{
        0% {
           transform: scale(0.2);
           opacity: 0;
+        }
+        50%{
+            transform: scale(1.25);
+            opacity: 1;
         }
         100% {
           transform: scale(1);
