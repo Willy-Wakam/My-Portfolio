@@ -23,21 +23,21 @@ $(document).ready(function(){
             $('.social').removeClass("soc");
         }
 
-        if(this.scrollY >= 1100 && this.scrollY < 2300){
+        if(this.scrollY >= 1000 && this.scrollY < 2300){
             $('.about-1').addClass("show1");
         }
         else{
             $('.about-1').removeClass("show1");
         }
 
-        if(this.scrollY >= 2200 && this.scrollY < 3100){
+        if(this.scrollY >= 2000 && this.scrollY < 3100){
             $('.services').addClass("show3");
         }
         else{
             $('.services').removeClass("show3");
         }
 
-        if(this.scrollY >= 2800 && this.scrollY < 3700){
+        if(this.scrollY >= 2600 && this.scrollY < 3700){
             $('.skills').addClass("show4");
         }
         else{
