@@ -123,6 +123,7 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     background: rgb(20, 173, 220);
+    color: rgb(33, 83, 33);
 }
 .navbar .max-width{
     display: flex;
@@ -134,6 +135,7 @@ section .title::after{
     font-size: 35px;
     font-weight: 600;
 }
+
 .navbar .logo a span{
     color: rgb(20, 173, 220);
     transition: all 0.3s ease;
@@ -215,6 +217,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    transition: all 2s ease-in;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
@@ -282,34 +285,44 @@ div.column.right{
     pointer-events: auto;
 }
 
+.services  a{
+    background-color: #00abe9;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.services  a:hover{
+    background-color: #111;
+    color: #00abe9;
+}
 
 
 .services{
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
 
 .services.show3{
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
 }
 .skills{
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
 
 .skills.show4{
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
 }
 .contact{
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
 
 .contact.show5{
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
 }
 
 /* about section styling */
@@ -367,6 +380,10 @@ div.column.right{
 .about .about-content .right a:hover{
     color: rgb(20, 173, 220);
     background: none;
+}
+
+.about-1 .timeline h3{
+    color: #fff;
 }
 
 /* services section styling */
@@ -908,7 +925,7 @@ footer span a:hover{
         margin-right: -15px;
     }
 
-.space{
+.timeline .space{
        height: 0px;
     }
 
@@ -946,7 +963,7 @@ footer span a:hover{
   .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 5px;
     background-color: #00abe9;
     top: 0;
     bottom: 0;
