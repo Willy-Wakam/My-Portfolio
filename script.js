@@ -44,7 +44,7 @@ $(document).ready(function(){
             $('.skills').removeClass("show4");
         }
 
-        if(this.scrollY >= 3600){
+        if(this.scrollY >= 3400){
             $('.contact').addClass("show5");
             $('.social').removeClass("soc");
             $('footer').addClass("show12")
