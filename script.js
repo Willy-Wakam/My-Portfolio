@@ -9,7 +9,7 @@ $(document).ready(function(){
         
         // scroll-up button show/hide script
  
-        if (this.scrollY > 300) {
+        if (this.scrollY >= 300 && this.scrollY < 1400) {
             $('.about').addClass("show2");
         }else{
             $('.about').removeClass("show2");
@@ -23,28 +23,28 @@ $(document).ready(function(){
             $('.social').removeClass("soc");
         }
 
-        if(this.scrollY > 1100){
+        if(this.scrollY >= 1100 && this.scrollY < 2300){
             $('.about-1').addClass("show1");
         }
         else{
             $('.about-1').removeClass("show1");
         }
 
-        if(this.scrollY >= 2200){
+        if(this.scrollY >= 2200 && this.scrollY < 3100){
             $('.services').addClass("show3");
         }
         else{
             $('.services').removeClass("show3");
         }
 
-        if(this.scrollY >= 2800){
+        if(this.scrollY >= 2800 && this.scrollY < 3700){
             $('.skills').addClass("show4");
         }
         else{
             $('.skills').removeClass("show4");
         }
 
-        if(this.scrollY >= 3300){
+        if(this.scrollY >= 3600){
             $('.contact').addClass("show5");
             $('.social').removeClass("soc");
             $('footer').addClass("show12")
