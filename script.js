@@ -37,7 +37,7 @@ $(document).ready(function(){
             $('.services').removeClass("show3");
         }
 
-        if(this.scrollY >= 2600 && this.scrollY < 4000){
+        if(this.scrollY >= 2700 && this.scrollY < 4500){
             $('.skills').addClass("show4");
         }
         else{

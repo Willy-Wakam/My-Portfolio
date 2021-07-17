@@ -274,11 +274,6 @@ section .title::after{
         transition: all 0.2s ease;
     }
 
-div.column.right{
-    animation-name: example;
-    animation-duration: 3s;
-}
-
 .social.soc{
     bottom: 250px;
     opacity: 1; 
@@ -470,6 +465,20 @@ div.column.right{
     align-items: center;
     justify-content: space-between;
 }
+
+.skills .skills-content .right .info ul>li{
+    margin: 0 10px;
+}
+
+.skills .skills-content .right .info ul>li>a{
+    color: #00abe9;
+}
+
+.skills .skills-content .right .info ul{
+    margin-left: -35px;
+    display: inherit;
+}
+
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
@@ -506,6 +515,9 @@ div.column.right{
 .skills-content .right .python::before{
     width: 50%;
 }
+.skills-content .right .dart::before{
+    width: 50%;
+}
 
 .skills-content .left img{
     height: 100px;
@@ -516,7 +528,8 @@ div.column.right{
     left: 50%;
 }
 
-.skills-content .left ul, .skills-content .right ul{
+.skills-content .left ul, 
+.skills-content .right ul{
     list-style: none;
 }
 
@@ -526,70 +539,6 @@ div.column.right{
     margin-bottom: 20px;
 }
 
-
-
-/* teams section styling */
-.teams .title::after{
-    content: "who with me";
-}
-.teams .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover{
-    background: rgb(20, 173, 220);
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid rgb(20, 173, 220);
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img{
-    border-color: #fff;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid rgb(20, 173, 220)!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: rgb(20, 173, 220)!important;
-}
 
 /* contact section styling */
 .contact .title::after{
@@ -890,6 +839,7 @@ footer span a:hover{
         pointer-events: auto;
     }
     
+    
     .social.soc{
         opacity: 0;
     }
@@ -936,6 +886,16 @@ footer span a:hover{
         top: 498px;
         right: 63px;
         opacity: 0;
+    }
+
+    .skills .skills-content .right .info ul{
+        margin-left: 2px;
+        display: inherit;
+        
+    }
+
+    .skills .skills-content .right .info ul>li{
+        margin: 0 2px;
     }
 
     .social.soc{
@@ -1147,19 +1107,3 @@ footer span a:hover{
     }
 }
 /*Css-Animations*/
-
-@keyframes example{
-       0% {
-          transform: scale(0.2);
-          opacity: 0;
-        }
-        50%{
-            transform: scale(1.25);
-            opacity: 1;
-        }
-        100% {
-          transform: scale(1);
-          opacity: 1;	
-        }
-      
-}
