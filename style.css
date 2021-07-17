@@ -174,7 +174,7 @@ section .title::after{
     height: 42px;
     width: 42px;
     background:#00abe9;
-    right: 30px;
+    right: 0px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
