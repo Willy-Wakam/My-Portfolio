@@ -25,6 +25,7 @@ $(document).ready(function(){
 
         if(this.scrollY >= 1000 && this.scrollY < 2300){
             $('.about-1').addClass("show1");
+            $('.about-1 .timeline__year').addClass("show_y")
         }
         else{
             $('.about-1').removeClass("show1");
@@ -53,6 +54,15 @@ $(document).ready(function(){
             $('.contact').removeClass("show5");
         }
     });
+
+    // appear with a rigth-slide after hovering
+    $('.item').hover(function(){
+        $('.item').addClass("show_item")
+    })
+
+    $('.item1').hover(function(){
+        $('.item1').addClass("show_item1")
+    })
     
 
     // slide-up script

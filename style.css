@@ -504,7 +504,7 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .js::before{
-    width: 40%;
+    width: 50%;
 }
 .skills-content .right .php::before{
     width: 50%;
@@ -516,6 +516,10 @@ section .title::after{
     width: 50%;
 }
 .skills-content .right .dart::before{
+    width: 60%;
+}
+
+.skills-content .right .vue::before{
     width: 50%;
 }
 
@@ -1057,6 +1061,19 @@ footer span a:hover{
     .timeline__item{
         width: 44%;
         margin: 1rem;
+        opacity: 0;
+    }
+
+    .item.show_item{
+        opacity: 1;
+        animation-name: right-slide;
+        animation-duration: 0.3s;
+    }
+
+    .item1.show_item1{
+        opacity: 1;
+        animation-name: left-slide;
+        animation-duration: 0.3s;
     }
 
     .timeline__item:nth-of-type(2n){
@@ -1070,6 +1087,23 @@ footer span a:hover{
         right: auto;
         left: -10px;
         border-color: transparent transparent  #00abe9  #00abe9;
+    }
+
+    
+    .timeline__item--year {
+        text-align: center;
+        margin: 0 auto;
+        opacity: 1;
+    }
+
+    .timeline__item--year:nth-child(even){
+        float: none;
+        margin: 0 auto;
+        border-image: none;
+    }
+
+    .timeline__item--year:nth-child(even)::before{
+        display: none;
     }
 }
 
@@ -1090,20 +1124,13 @@ footer span a:hover{
     display: none;
 }
 
-@media only screen and (min-width:760px){
-    .timeline__item--year {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .timeline__item--year:nth-child(even){
-        float: none;
-        margin: 0 auto;
-        border-image: none;
-    }
-
-    .timeline__item--year:nth-child(even)::before{
-        display: none;
-    }
-}
 /*Css-Animations*/
+@keyframes right-slide{
+    0% {left:-250px;}
+    100% {left: 0px;;}
+}
+
+@keyframes left-slide{
+    0% {right: -250px;}
+    100% {right: 0px;}
+}
