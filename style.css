@@ -965,6 +965,7 @@ footer span a:hover{
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    opacity: 0.7;
 }
 
 .timeline::before{
@@ -1038,6 +1039,11 @@ footer span a:hover{
     position: relative;
     margin: 1rem 3rem 1rem 1rem;
     clear: both;
+}
+
+.timeline__item:hover {
+    cursor: pointer;
+    font-size: larger;
 }
 
 .timeline__item::after, .timeline__item::before{
