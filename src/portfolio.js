@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/willy-wakam",
   linkedin: "https://www.linkedin.com/in/willy-durand-wakam-kouam-33186a184/",
   gmail: "williamswakam09@gmail.com",
+  gitlab: "https://gitlab.com/users/Wildur13/projects",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -179,15 +180,19 @@ const workExperiences = {
       companylogo: require("./assets/images/SMIGHT-Logo.png"),
       date: "Sep 2022 – Jun 2024",
       desc: "Developed responsive frontend components, integrated RESTful APIs, collaborated in agile Scrum teams, created UI components using Figma, and supported Docker-based deployments",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: []
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer Intern (Working Student)",
       company: "Prognos",
       companylogo: require("./assets/images/Prognos_logo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Developed web interfaces using WordPress, contributed to mobile app frontend features, and improved UI usability with Figma."
+    },
+    {
+      role: "Front-End Developer Intern (Working Student)",
+      company: "Objektkultur",
+      companylogo: require("./assets/images/ok_logo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Developed web interfaces using WordPress, contributed to mobile app frontend features, and improved UI usability with Figma."
     }
