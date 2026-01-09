@@ -194,7 +194,7 @@ const workExperiences = {
       company: "Objektkultur",
       companylogo: require("./assets/images/ok_logo.png"),
       date: "Apr 2021 – Aug 2021",
-      desc: "Developed web interfaces using WordPress, contributed to mobile app frontend features, and improved UI usability with Figma."
+      desc: "Developed App interfaces using Flutter, contributed to mobile app frontend features, and improved UI usability with Figma."
     }
   ]
 };
