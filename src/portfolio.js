@@ -186,14 +186,14 @@ const workExperiences = {
       role: "Software Engineer Intern (Working Student)",
       company: "Prognos",
       companylogo: require("./assets/images/Prognos_logo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Oct 2021 – Aug 2022",
       desc: "Developed web interfaces using WordPress, contributed to mobile app frontend features, and improved UI usability with Figma."
     },
     {
       role: "Front-End Developer Intern (Working Student)",
       company: "Objektkultur",
       companylogo: require("./assets/images/ok_logo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Apr 2021 – Aug 2021",
       desc: "Developed web interfaces using WordPress, contributed to mobile app frontend features, and improved UI usability with Figma."
     }
   ]
