@@ -40,14 +40,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                  <a
-                    href="/CV_DE.pdf"
-                    className="download-link-button"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+
               </div>
             </div>
           </div>
