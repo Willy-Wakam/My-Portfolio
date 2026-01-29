@@ -215,7 +215,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/logo-des-online-shops-fuer-den-e-commerce_1199645-37307.avif"),
-      projectName: "Saayahealth",
+      projectName: "Online Shop",
       projectDesc: "Discover your next favorite outfit in our fashion online shop — curated collections, seasonal drops, and timeless essentials. Shop by category, size, and style, save your favorites, and check out securely in minutes.",
       footerLink: [
         {
